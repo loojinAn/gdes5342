@@ -1,0 +1,103 @@
+/* All CSS styles go here */
+
+@font-face {
+  font-family: 'Faster Regular';
+  src:url(../fonts/FasterOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gladifilthefte';
+  src:url(../fonts/Gladifilthefte.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'acme';
+  src:url(../fonts/Acme-Regular.ttf) format('truetype');
+}
+
+
+.cover {
+  margin-top: 50px;
+}
+.container {
+  height: 100vw;
+}
+
+.title {
+  font-family: 'Faster Regular';
+  font-size: 2.7em;
+  color: #3399ff;
+  margin-top: 10px;
+  margin-left: 325px;
+  padding-left: 20px;
+}
+
+.text {
+  font-family: 'acme';
+  font-size: 17px;
+  color: #000066;
+  width: 850px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 350px;
+  padding-left: 20px;
+}
+
+.text:first-child {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.text:last-child {
+  padding-bottom: 100px;
+}
+
+.mark {
+  color: #E14434;
+}
+
+.link {
+  font-family: 'Gladifilthefte';
+  font-size: 18px;
+  text-align: center;
+  margin-left: 975px;
+
+  display: block;
+  border-bottom: solid 2px #000066;
+  width: 250px;
+  line-height: 24px;
+  padding-left: 12px 0 12px 0;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.link:hover {
+  color: white;
+  background: #000066;
+  transition: 0.4s;
+}
+
+.caption {
+  font-family: 'Gladifilthefte';
+  font-size: 15px;
+  margin: 10px 0px 0px 380px;
+  padding-left: 30px;
+  text-align: right;
+}
+
+.images {
+  margin: 25px 0px 0px 380px;
+  width: 780px;
+}
+
+.sideimage {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: url("../images/video_game_graphic.png") no-repeat center;
+}
